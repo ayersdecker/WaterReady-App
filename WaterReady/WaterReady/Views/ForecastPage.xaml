@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WaterReady.Views.ForecastPage"
+             Title="ForecastPage">
+    <VerticalStackLayout>
+        <VerticalStackLayout Margin="10">
+            <Label x:Name="LocationName"/>
+            <Label x:Name="LocationCoor"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout Margin="10">
+            <Label Text="Air Temp"/>
+            <Label Text="Water Temp"/>
+            <Label Text="Wave Velocity"/>
+            <Label Text="Wave Direction"/>
+            <Label Text="Wind Velocity"/>
+            <Label Text="Wind Direction"/>
+        </VerticalStackLayout>
+        
+    </VerticalStackLayout>
+</ContentPage>
