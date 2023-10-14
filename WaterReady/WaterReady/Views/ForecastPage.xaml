@@ -9,12 +9,35 @@
             <Label x:Name="LocationCoor"/>
         </VerticalStackLayout>
         <VerticalStackLayout Margin="10">
-            <Label Text="Air Temp"/>
-            <Label Text="Water Temp"/>
-            <Label Text="Wave Velocity"/>
-            <Label Text="Wave Direction"/>
-            <Label Text="Wind Velocity"/>
-            <Label Text="Wind Direction"/>
+            <HorizontalStackLayout>
+                <Label Text="AirTemp = "/>
+                <Label x:Name="AirTempField"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Water Temp = "/>
+                <Label x:Name="WaterTempField"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Wave Velocity = "/>
+                <Label x:Name="WaveVelocityField"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Wave Direction = "/>
+                <Label x:Name="WaveDirectionField"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Wind Velocity = "/>
+                <Label x:Name="WindVelocityField"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Wind Direction = "/>
+                <Label x:Name="WindDirectionField"/>
+            </HorizontalStackLayout>
+            
+            
+            
+            
+            
         </VerticalStackLayout>
         
     </VerticalStackLayout>
