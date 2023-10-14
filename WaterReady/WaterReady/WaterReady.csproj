@@ -50,7 +50,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\forestlawn.jpg" />
-	  <None Remove="Resources\Images\GeneseeRiver.jpg" />
+	  <None Remove="Resources\Images\geneseeriver.jpg" />
 	  <None Remove="Resources\Images\ironbay.jpg" />
 	  <None Remove="Resources\Images\websterpark.jpg" />
 	</ItemGroup>
