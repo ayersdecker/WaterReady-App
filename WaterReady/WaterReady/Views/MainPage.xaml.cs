@@ -10,7 +10,7 @@ namespace WaterReady
         public ObservableCollection<MainPageLocationModel> Locations = new() { 
             new MainPageLocationModel ( "Genesee River", "Genesee River Delta and Marina", new Coordinate(43.2540828,-77.6017813), "geneseeriver.jpg"),
             new MainPageLocationModel ( "Irondequoit Bay", "Bay off the edge of Lake Ontario", new Coordinate(43.1790113,-77.5714571), "ironbay.jpg"),
-            new MainPageLocationModel ( "Forest Lawn", "Forest Lawn Dr leading to Lake Ontario", new Coordinate(43.2487271,-77.4996791), "forestlawn.jpg"),
+            new MainPageLocationModel ( "Forest Lawn", "Forest Lawn Dr leading to Lake Ontario", new Coordinate(43.2487271,-77.499679), "forestlawn.jpg"),
             new MainPageLocationModel ( "Webster Park", "Genesee River Delta and Marina", new Coordinate(43.2609541,-77.446657), "websterpark.jpg")
             };
 
